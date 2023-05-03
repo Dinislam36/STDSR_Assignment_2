@@ -1,7 +1,7 @@
 # STDSR_Assignment_2
 Assignment 2 task 2 code
 
-All code are within one file ```STDSR_Assignment_2_Task_2.ipynb```. To use the code additional libraries ```geojson```, ```descartes``` and ```geopy``` is needed. Also need [city.csv](https://github.com/hflabs/city) file with russia cities information and [russia.json](https://www.dropbox.com/s/sadvwkzbqjjurdv/russia.json?dl=1) file with geojson format of russia borders.
+All code are within one file ```STDSR_Assignment_2_Task_2.ipynb```. To use the code additional libraries ```geojson```, ```descartes``` and ```geopy``` is needed. Also need [city.csv](https://github.com/hflabs/city) file with russia cities information and [russia.json](https://www.dropbox.com/s/sadvwkzbqjjurdv/russia.json?dl=1) file with geojson format of russia borders. Both files must be in same directory with python notebook.
 
 ## Slow cooling
 Here i used SA with T0=400, T_cool=20 and T_decrease_rate=0.999. Temperature decreased every 2nd iteration. For a total of 6000 iterations SA found optimal distance 22k km. For a video every 10 iteration were used
